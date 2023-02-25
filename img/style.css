@@ -1,0 +1,145 @@
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Header styles */
+  header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #0058a3;
+    color: #fff;
+    padding: 10px 20px;
+  }
+  
+  header h1 {
+    font-size: 32px;
+    margin: 0;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+  }
+  
+  header h2 {
+    font-size: 24px;
+    margin: 0;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+  }
+  
+  header button {
+    background-color: #fff;
+    border: none;
+    color: #0058a3;
+    font-size: 20px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+  }
+  
+  header button:hover {
+    background-color: #0058a3;
+    color: #fff;
+  }
+  
+  /* Description styles */
+  .description {
+    margin: 20px;
+  }
+  
+  .description h2 {
+    font-size: 24px;
+    margin-top: 0;
+  }
+  
+  .description p {
+    font-size: 18px;
+    line-height: 1.5;
+  }
+  
+  .description img {
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+  }
+  
+  /* Enquiry styles */
+  .enquiry {
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+  
+  .enquiry h2 {
+    font-size: 24px;
+    margin-top: 0;
+  }
+  
+  .enquiry form {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .enquiry label {
+    font-size: 18px;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  
+  .enquiry input,
+  .enquiry textarea {
+    font-size: 18px;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    width: 100%;
+  }
+  
+  .enquiry input[type="submit"] {
+    background-color: #0058a3;
+    border: none;
+    color: #fff;
+    font-size: 20px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+  }
+  
+  .enquiry input[type="submit"]:hover {
+    background-color: #fff;
+    color: #0058a3;
+  }
+  
+  /* Payment mode styles */
+  .payment-mode {
+    margin: 20px;
+  }
+  
+  .payment-mode h2 {
+    font-size: 24px;
+    margin-top: 0;
+  }
+  
+  .payment-mode p {
+    font-size: 18px;
+    line-height: 1.5;
+  }
+  
+  /* Benefits styles */
+  .benefits {
+    margin: 20px;
+  }
+  
+  .benefits h2 {
+    font-size: 24px;
+    margin-top: 0;
+  }
+  
+  .benefits ul {
+    list-style-type: disc;
+    font-size: 18px;
+    line-height: 1.5;
+    margin-left: 20px;
+  
